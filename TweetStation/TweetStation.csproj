@@ -140,7 +140,6 @@
     <Compile Include="UI\SearchTab.cs" />
     <Compile Include="UI\Searches.cs" />
     <Compile Include="UI\User.cs" />
-    <Compile Include="Dialogs\Settings.cs" />
     <Compile Include="Utilities\OAuthAuthorizer.cs" />
     <Compile Include="UI\Camera.cs" />
     <Compile Include="Audio\AudioPlay.cs" />
@@ -151,6 +150,7 @@
     <Compile Include="Data\TwitterAccountDatabase.cs" />
     <Compile Include="Data\TweetDatabase.cs" />
     <Compile Include="Utilities\Punycode.cs" />
+    <Compile Include="Dialogs\Settings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainWindow.xib" />
@@ -223,6 +223,7 @@
     <Content Include="en.lproj\Localizable.strings" />
     <Content Include="es.lproj\Localizable.strings" />
     <Content Include="es.lproj\InfoPlist.strings" />
+    <Content Include="es.lproj\about.html" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\MonoTouch.Dialog\MonoTouch.Dialog\MonoTouch.Dialog.csproj">

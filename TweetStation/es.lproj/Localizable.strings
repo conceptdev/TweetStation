@@ -188,7 +188,7 @@
 
 /* TweetStation.SearchesViewController.ReloadAccount(), TweetStation.SearchesViewController.ReloadAccount(), TweetStation.SearchDialog.ViewWillAppear() */
 "Search" = "Buscar";
-
+"Search {0}"="Buscar {0}";
 /* TweetStation.TwitterTextSearch.MakeMirror() */
 "Search `{0}'" = "Buscar `{0}'";
 
@@ -257,3 +257,36 @@
 "Error fetching trends" = "Error al recuperar las tendencias";
 
 "Saved searches" = "Búsquedas guardadas";
+
+"Unable to download the timeline" = "Unable to download the timeline";
+
+"about.html" = "es/about.html";
+
+"Music" = "Música";
+"Conspirators" = "Conspiradores";
+"Contributors" = "Colaboradores";
+"Includes X11 code from" = "Código incluye X 11 desde";
+"Image Compression" = "Compresión de imagen";
+"Maximum" = "Máximo";
+"Medium" = "Medianas";
+"None" = "Ninguno";
+
+"Unable to retrieve the information" = "No se ha podido recuperar la información";
+"{0} ago from {1}" = "{0} hace de {1}";
+"Conversation" = "Conversación";
+"End of conversation" = "Fin de la conversación";
+"Edit Account" = "Editar cuenta";
+"Attempt to login failed" = "Intento de error al iniciar sesión";
+
+"Description" = "Descripción";
+"optional" = "opcional";
+"Privacy" = "Privacidad";
+"Public" = "Público";
+"Private" = "Privado";
+
+"Release to refresh" = "Liberar la actualización dos";
+"Loading..." = "Carga...";
+"Pull down to refresh..." = "Tire hacia abajo de dos actualización...";
+
+"Last Updated: never" = "Última actualización: nunca";
+"Last Updated: {0:g}" = "Última actualización: {0:g}";

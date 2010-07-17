@@ -436,7 +436,7 @@ namespace TweetStation
 			} else {
 				var text = composerView.Text.Trim ();
 				if (text.Length + name.Length > 140){
-					alert = new UIAlertView ("Error",
+					alert = new UIAlertView (Locale.GetText ("Error"),
 						Locale.GetText ("Message is too long"), null, null, "Ok");
 					alert.Show ();
 				} else {

@@ -26,6 +26,7 @@ using MonoTouch.UIKit;
 namespace TweetStation
 {
 	public class EditAccount : UINavigationController {
+		//FIXME: not sure how to 'localize' these strings...
 		class AccountInfo  {
 			[Section ("Account", "If you do not have a twitter account,\nvisit http://twitter.com")]
 			
@@ -58,7 +59,7 @@ namespace TweetStation
 				}
 				
 				BeginInvokeOnMainThread (delegate {
-					result (response.StatusCode == HttpStatusCode.OK ? null : "Attempted to login failed");});
+					result (response.StatusCode == HttpStatusCode.OK ? null : Locale.GetText("Attempt to login failed"));});
 			}, null);
 		}
 		
@@ -76,7 +77,7 @@ namespace TweetStation
 				//info.Password = account.Password;
 			}
 			
-			var bc = new BindingContext (this, info, "Edit Account");
+			var bc = new BindingContext (this, info, Locale.GetText("Edit Account"));
 			var dvc = new DialogViewController (bc.Root, true);
 			PushViewController (dvc, false);
 			UIBarButtonItem done = null;
