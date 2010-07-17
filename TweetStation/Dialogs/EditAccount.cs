@@ -103,7 +103,7 @@ namespace TweetStation
 						DismissModalViewControllerAnimated (true);
 						container.Account = account;
 					} else {
-						dlg = new UIAlertView ("Login error", errorMessage, null, "Close");
+						dlg = new UIAlertView (Locale.GetText("Login error"), errorMessage, null, Locale.GetText("Close"));
 						dlg.Show ();
 					}
 				});
