@@ -245,7 +245,10 @@ namespace TweetStation
 		
 		public string Text { 
 			get { return text; }
-			set { text = value; Caption = Locale.Format (format, text); }
+			set { 
+				text = value; 
+				Caption = String.Format (format, text); // Don't use Locale.Format when there isn't a static string
+			}
 		}
 		
 		public SearchMirrorElement (string format) : base ("")

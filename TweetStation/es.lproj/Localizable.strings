@@ -260,7 +260,7 @@
 
 "Unable to download the timeline" = "Unable to download the timeline";
 
-"about.html" = "es/about.html";
+"about.html" = "es.lproj/about.html";
 
 "Music" = "Música";
 "Conspirators" = "Conspiradores";
@@ -290,3 +290,12 @@
 
 "Last Updated: never" = "Última actualización: nunca";
 "Last Updated: {0:g}" = "Última actualización: {0:g}";
+
+"{0} is following you" = "{0} es siguiendo le";
+"{0} is not following you" = "{0} es no siguiendo le";
+"Are you sure you want to unblock {0}" = "¿Está seguro que desea desbloquear {0}?";
+"Are you sure you want to block {0}" = "¿Está seguro de que desea bloquear {0}?";
+"Joined on {0}" = "Ingresó en {0}";
+"Compressing" = "Compresión";
+"Uploading" = "Enviar";
+"Ok"= "Aceptar";
