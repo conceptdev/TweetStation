@@ -171,6 +171,10 @@
     <Folder Include="Audio\" />
     <Folder Include="en.lproj\" />
     <Folder Include="es.lproj\" />
+    <Folder Include="it.lproj\" />
+    <Folder Include="de.lproj\" />
+    <Folder Include="ja.lproj\" />
+    <Folder Include="fr.lproj\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\friends.png" />
@@ -224,6 +228,14 @@
     <Content Include="es.lproj\Localizable.strings" />
     <Content Include="es.lproj\InfoPlist.strings" />
     <Content Include="es.lproj\about.html" />
+    <Content Include="ja.lproj\Localizable.strings" />
+    <Content Include="it.lproj\Localizable.strings" />
+    <Content Include="de.lproj\Localizable.strings" />
+    <Content Include="fr.lproj\Localizable.strings" />
+    <Content Include="ja.lproj\InfoPlist.strings" />
+    <Content Include="it.lproj\InfoPlist.strings" />
+    <Content Include="fr.lproj\InfoPlist.strings" />
+    <Content Include="de.lproj\InfoPlist.strings" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\MonoTouch.Dialog\MonoTouch.Dialog\MonoTouch.Dialog.csproj">
