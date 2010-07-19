@@ -19,6 +19,7 @@
     <BundleIcon>Icon.png</BundleIcon>
     <BundleIconSpotlight>IconSpotlight.png</BundleIconSpotlight>
     <BundleIconHigh>Icon@2x.png</BundleIconHigh>
+    <SupportedDevices>IPhoneAndIPad</SupportedDevices>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -59,7 +60,6 @@
     <MtouchDebug>True</MtouchDebug>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <MtouchI18n />
-    <CodesignProvision>CD7CE718-F7A1-4858-A956-9B9A161C239C</CodesignProvision>
     <MtouchSdkVersion>4.0</MtouchSdkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">

@@ -27,6 +27,7 @@ namespace TweetStation
 	// The name AppDelegate is referenced in the MainWindow.xib file.
 	public partial class AppDelegate : UIApplicationDelegate, IAccountContainer
 	{
+		public bool IsIPad;
 		public static AppDelegate MainAppDelegate;
 		
 		static bool useXauth;
@@ -40,6 +41,12 @@ namespace TweetStation
 		
 		public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 		{
+			IsIPad = (UIScreen.MainScreen.Bounds == new RectangleF (0, 0, 768, 1024));
+			var rect = new RectangleF (0,0,UIScreen.MainScreen.Bounds.Width, UIScreen.MainScreen.Bounds.Height);
+			// iPad view size [CD]
+			window.Frame = rect;
+			window.Bounds = rect;
+		
 			Util.ReportTime ("Entering Finished");
 			MainAppDelegate = this;
 			window.MakeKeyAndVisible ();
