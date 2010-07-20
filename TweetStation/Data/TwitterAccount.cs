@@ -144,10 +144,10 @@ namespace TweetStation
 		{
 			try {
 				callback (stream);
-			} catch  (Exception ex){
-				Console.WriteLine (ex);
+			} catch  (Exception ex3){
+				Console.WriteLine (ex3);
 			}
-			stream.Close ();
+			if (stream != null) stream.Close (); // Search tab getting a null here when twitter api problems... [CD]
 		}
 		
 		void Launch (string url, bool callbackOnMainThread, Action<Stream> callback)
@@ -177,8 +177,8 @@ namespace TweetStation
 							stream.Close ();
 							stream = ms;
 						}
-					} catch (Exception e) {
-						Console.WriteLine (e);
+					} catch (Exception ex1) {
+						Console.WriteLine (ex1);
 						stream = null;
 					}
 					
@@ -187,8 +187,8 @@ namespace TweetStation
 					else 
 						InvokeCallback (callback, stream);
 					
-				} catch (Exception e){
-					Console.WriteLine (e);
+				} catch (Exception ex2){
+					Console.WriteLine (ex2);
 				}
 				lock (queue){
 					if (queue.Count > 0){
